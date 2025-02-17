@@ -8,8 +8,8 @@ const routes = (
   <Router>
     <Routes>
       <Route path="/dashboard" exact element={<Home />} />
-      <Route path="/Login" exact element={<Login />} />
-      <Route path="/SignUp" exact element={<SignUp />} />
+      <Route path="/login" exact element={<Login />} />
+      <Route path="/signup" exact element={<SignUp />} />
     </Routes>
   </Router>
 );
