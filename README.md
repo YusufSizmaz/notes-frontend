@@ -29,3 +29,7 @@ Sunucuyu çalıştırın
 ```bash
   npm run start
 ```
+
+## Ekran Görüntüsü
+
+![Proje Ekran Görüntüsü](![alt text](image.png))
