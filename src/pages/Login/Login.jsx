@@ -12,11 +12,18 @@ const Login = () => {
           <form onSubmit={() => {}}>
             <h4 className="text-2xl mb-7">Login</h4>
 
-            <input type="text" placeholder="Email" className="input-box" />
+            <input
+              type="text"
+              placeholder="Email"
+              className="input-box w-full text-sm bg-transparent border-[1.5px] px-5 py-3 rounded mb-4 bg-primary  p-2 rounded my-1 "
+            />
 
             <PasswordInput />
 
-            <button type="submit" className="btn-primary">
+            <button
+              type="submit"
+              className="w-full text-sm  border-[1.5px] px-5 py-3 rounded mb-4 outline-none bg-blue-500 text-white  hover:bg-blue-600"
+            >
               Login
             </button>
             <p className="text-sm text-center mt-4">
