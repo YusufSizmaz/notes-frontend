@@ -1,18 +1,18 @@
 @import "tailwindcss";
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
-/*????*/
 @layer base {
   html {
     font-family: "Poppins", sans-serif;
   }
   body {
-    background-color: #ffffff;
+    background: rgb(15, 164, 164);
+    background: linear-gradient(
+      90deg,
+      rgba(15, 164, 164, 1) 0%,
+      rgba(121, 17, 125, 1) 45%,
+      rgba(255, 240, 3, 1) 91%
+    );
     overflow-x: hidden;
-  }
-}
-
-@layer components {
-  .input-box {
   }
 }

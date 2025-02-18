@@ -15,14 +15,14 @@ const Login = () => {
             <input
               type="text"
               placeholder="Email"
-              className="input-box w-full text-sm bg-transparent border-[1.5px] px-5 py-3 rounded mb-4 bg-primary  p-2 rounded my-1 "
+              className="input-box w-full text-md bg-transparent  px-5 py-3 rounded mb-4 bg-primary  p-2  my-1  border-2"
             />
 
             <PasswordInput />
 
             <button
               type="submit"
-              className="w-full text-sm  border-[1.5px] px-5 py-3 rounded mb-4 outline-none bg-blue-500 text-white  hover:bg-blue-600"
+              className="w-full text-md  border-[1.5px] px-5 py-3 rounded mb-4 outline-none bg-blue-500 text-white  hover:bg-blue-600"
             >
               Login
             </button>
