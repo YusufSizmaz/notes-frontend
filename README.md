@@ -32,4 +32,4 @@ Sunucuyu çalıştırın
 
 ## Ekran Görüntüsü
 
-(![alt text](image.png))
+![alt text](image.png)
