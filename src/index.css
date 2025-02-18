@@ -6,13 +6,6 @@
     font-family: "Poppins", sans-serif;
   }
   body {
-    background: rgb(15, 164, 164);
-    background: linear-gradient(
-      90deg,
-      rgba(15, 164, 164, 1) 0%,
-      rgba(121, 17, 125, 1) 45%,
-      rgba(255, 240, 3, 1) 91%
-    );
     overflow-x: hidden;
   }
 }
